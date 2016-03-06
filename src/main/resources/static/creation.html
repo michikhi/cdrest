@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Creation</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/cdrest.js"></script>
+
+</head>
+<body ng-app="cdrest">
+    <div ng-controller="HelloController" >
+
+        <h2> {{helloTo.title}} !</h2>
+
+    </div>
+
+    <div class="col-md-6 col-sm-6 spacer">
+        <div class="panel-info">
+            <div class="panel-heading">Creation d'une operation</div>
+        </div>
+        <div class="panel-body" ng-controller="CreationController">
+
+            <div ng-if="mode.value=='form'">
+                <form>
+                <div class="form-group">
+                    <label class="control-label">Nom</label>
+                    <input class="form-control" type="text" ng-model="operation.task"/>
+                    <span ng-if="errors" class="error">{{errors.task}}</span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Date</label>
+                    <input class="form-control" type="date" ng-model="operation.date"/>
+                    <span ng-if="errors" class="error">{{errors.date}}</span>
+                </div>
+                <div>
+                    <button class="btn btn-primary" ng-click="saveOperation()">Save</button>
+                </div>
+                </form>
+            </div>
+            <div ng-if="mode.value=='confirm'">
+                <div class="panel-heading">Done</div>
+                <div class="form-group">
+                    <label class="control-label">ID</label>
+                    <label class="control-label">{{operation.id}}</label>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">task</label>
+                    <label class="control-label">{{operation.task}}</label>
+
+                </div>
+                <div class="form-group">
+                    <label class="control-label">date</label>
+                    <label class="control-label">{{operation.date|date:'yyyy-MM-dd'}}</label>
+                </div>
+            </div>
+
+            <div ng-if="exception.message">
+                <span class="error">{{exception.message}}</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

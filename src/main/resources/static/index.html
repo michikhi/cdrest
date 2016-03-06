@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>CD REST</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+</head>
+<body ng-app="cdrest" ng-controller="IndexController">
+<ul class="nav nav-pills">
+  <!--  <li class="clickable" ng-repeat="m in menu" ng-click="selectedMenu=m"> -->
+    <li ng-class="{active:m==selectedMenu}" class="clickable" ng-repeat="m in menu" ng-click="select(m)">
+      <a >{{m}}</a>
+    </li>
+
+</ul>
+<div ng-if="selectedMenu=='Add'" ng-controller="CreationController">
+    <div ng-include="'creation.html'">
+    </div>
+</div>
+<div ng-if="selectedMenu=='List'" ng-controller="ListOperationsController">
+    <div ng-include="'listoperations.html'">
+    </div>
+</div>
+<div ng-if="selectedMenu=='Logout'">
+    <div ng-include="'logout'">
+    </div>
+</div>
+<script type="text/javascript" src="js/angular.js"></script>
+<script type="text/javascript" src="js/cdrest.js"></script>
+
+</body>
+</html>
