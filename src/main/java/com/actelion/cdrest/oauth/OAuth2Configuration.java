@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.*;
 import org.springframework.boot.bind.*;
 import org.springframework.context.*;
 import org.springframework.context.annotation.*;
-import org.springframework.core.annotation.*;
 import org.springframework.core.env.*;
 import org.springframework.security.authentication.*;
 import org.springframework.security.config.annotation.web.builders.*;
@@ -21,7 +20,6 @@ public class OAuth2Configuration {
 
     @Configuration
     @EnableResourceServer
-    @Order(2)
     protected static class ResourceServerConfiguration extends ResourceServerConfigurerAdapter {
 
         @Autowired
