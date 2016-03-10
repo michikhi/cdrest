@@ -15,20 +15,20 @@ public class User implements Serializable{
     @Id
     private String username;
     private String password;
-    private boolean actived;
+    private boolean activated;
 
-    public User(String username, String password, boolean actived) {
+    public User(String username, String password, boolean activated) {
         this.username = username;
         this.password = password;
-        this.actived = actived;
+        this.activated = activated;
     }
 
-    public boolean isActived() {
-        return actived;
+    public boolean isActivated() {
+        return activated;
     }
 
-    public void setActived(boolean actived) {
-        this.actived = actived;
+    public void setActivated(boolean activated) {
+        this.activated = activated;
     }
 
     @ManyToMany
