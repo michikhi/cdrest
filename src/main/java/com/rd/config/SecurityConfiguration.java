@@ -17,22 +17,6 @@ import org.springframework.security.oauth2.provider.expression.*;
 @EnableWebSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
-//    @Autowired
-//    private UserDetailsService userDetailsService;
-//
-//    @Bean
-//    public PasswordEncoder passwordEncoder() {
-//        return new StandardPasswordEncoder();
-//    }
-
-//    @Autowired
-//    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-//
-//        auth
-//                .userDetailsService(userDetailsService)
-//                .passwordEncoder(passwordEncoder());
-//
-//    }
 
     @Override
     public void configure(WebSecurity web) throws Exception {
@@ -68,12 +52,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
         @Override
         public void init(AuthenticationManagerBuilder auth) throws Exception {
-//            auth
-//                    .ldapAuthentication()
-//                    .userDnPatterns("uid={0},ou=people")
-//                    .groupSearchBase("ou=groups")
-//                    .contextSource().ldif("classpath:test-server.ldif");
-
 
             auth.ldapAuthentication()
                     .userSearchFilter("(cn={0})")
