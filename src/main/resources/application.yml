@@ -1,0 +1,22 @@
+server:
+  port: 9999
+  context-path: /uaa
+    
+myapp:
+  client:
+    name: myapp
+    secret: myapps3cr3t
+    scope: myapp
+  keystore:
+    name: myapp.jks
+    pass: myapp@uthk3y5tor3
+  key:
+    name: myappkey
+    pass: myapp@uthk3y
+  ldap:
+    url: "ldaps://cdpub.actelion.com:636/dc=corp"
+    ldif: "classpath:test.ldif"
+    user-search-base: "ou=users"
+    user-dn-patterns: "cn={0},ou=users,o=actelion"
+    group-search-base: "ou=groups"
+    group-search-filter: "(uniqueMember={0})"
