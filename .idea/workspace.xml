@@ -2,105 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8cb487f-fe9f-4f00-bc39-c9c9ab1bd38c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/myapppublickey.cer" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keystore-ldap-prod.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/auth/AuthApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/auth/config/OAuth2Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/auth/config/SecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/auth/handler/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/keystore-ldap-prod.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/myapp.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/test.ldif" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/outputFileStates.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/taskArtifacts.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/actelion/cdrest/CdrestApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/actelion/cdrest/controllers/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/actelion/cdrest/dao/OperationRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/actelion/cdrest/dao/RoleRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/actelion/cdrest/dao/UserRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/actelion/cdrest/entities/Operation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/actelion/cdrest/entities/Role.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/actelion/cdrest/entities/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/actelion/cdrest/security/SecurityConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/actelion/cdrest/security/WebMvcConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/actelion/cdrest/services/OperationRestService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/actelion/cdrest/services/UserRestService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/com/actelion/cdrest/CdrestApplicationTests.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/cdrest-0.0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/cdrest-0.0.1-SNAPSHOT.jar.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/com.actelion.cdrest.CdrestApplicationTests.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/css/base-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/js/report.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/packages/com.actelion.cdrest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/creation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/css/mystyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/error.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/js/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/js/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/js/cdrest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/static/listoperations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-com.actelion.cdrest.CdrestApplicationTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cdrest.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/file.rsa.pub" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/CdrestApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/api/FreeHelloController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/api/SecureHelloController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/controllers/GreetingController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/controllers/UserController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/dao/OperationRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/dao/RoleRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/dao/UserRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/entities/Greeting.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/entities/Operation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/entities/Role.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/entities/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/oauth/CustomAuthenticationEntryPoint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/oauth/CustomLogoutSuccessHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/oauth/OAuth2Configuration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/oauth/service/UserDetailsService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/security/SecurityConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/security/WebMvcConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/services/OperationRestService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/actelion/cdrest/services/UserRestService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/creation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/mystyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/error.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/cdrest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/listoperations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/actelion/cdrest/CdrestApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/my/maylab/amba/AuthApplicationTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sample/auth/handler/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/sample/auth/handler/UserController.java" />
     </list>
     <ignored path="cdrest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -152,18 +55,7 @@
     <favorites_list name="cdrest" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OAuth2Config.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/auth/config/OAuth2Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47586206">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1026,8 +918,21 @@
       <workItem from="1457507810370" duration="537000" />
       <workItem from="1457530291512" duration="145000" />
       <workItem from="1457551686798" duration="9528000" />
-      <workItem from="1458165342072" duration="259000" />
+      <workItem from="1458165342072" duration="440000" />
     </task>
+    <task id="LOCAL-00001" summary="s">
+      <created>1458165668674</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1458165668674</updated>
+    </task>
+    <task id="LOCAL-00002" summary="s">
+      <created>1458165774274</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1458165774274</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1039,7 +944,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43707000" />
+    <option name="totallyTimeSpent" value="43888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1047,6 +952,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1066,7 +972,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35856575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34130147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1111,6 +1016,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="s" />
+    <option name="LAST_COMMIT_MESSAGE" value="s" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
