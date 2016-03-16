@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8cb487f-fe9f-4f00-bc39-c9c9ab1bd38c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sample/auth/handler/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/sample/auth/handler/UserController.java" />
     </list>
     <ignored path="cdrest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -918,7 +917,7 @@
       <workItem from="1457507810370" duration="537000" />
       <workItem from="1457530291512" duration="145000" />
       <workItem from="1457551686798" duration="9528000" />
-      <workItem from="1458165342072" duration="440000" />
+      <workItem from="1458165342072" duration="470000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1458165668674</created>
@@ -932,7 +931,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458165774274</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="s">
+      <created>1458165810871</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1458165810871</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -944,7 +949,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43888000" />
+    <option name="totallyTimeSpent" value="43918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
