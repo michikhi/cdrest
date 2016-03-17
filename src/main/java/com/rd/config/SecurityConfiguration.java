@@ -1,6 +1,7 @@
 package com.rd.config;
 
 import org.springframework.context.annotation.*;
+import org.springframework.ldap.core.*;
 import org.springframework.ldap.core.support.*;
 import org.springframework.security.access.expression.method.*;
 import org.springframework.security.authentication.*;
@@ -74,6 +75,11 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             contextSource.afterPropertiesSet();
 
             return contextSource;
+        }
+
+        @Bean
+        public LdapTemplate ldapTemplate() throws Exception {
+            return new LdapTemplate(contextSource());
         }
     }
 
