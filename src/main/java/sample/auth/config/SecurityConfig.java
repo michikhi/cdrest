@@ -112,10 +112,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Bean
     public BaseLdapPathContextSource contextSource() throws Exception {
 
-        DefaultSpringSecurityContextSource contextSource = new DefaultSpringSecurityContextSource("ldaps://cdpub.actelion.com:636/");
+        DefaultSpringSecurityContextSource contextSource = new DefaultSpringSecurityContextSource("ldaps://localhost:636/");
 
         contextSource.setUserDn("cn=RundeckAdmin,ou=users,o=system");
-        contextSource.setPassword("xnRJUJd4aLy4zu");
+        contextSource.setPassword("xxxx");
         contextSource.setReferral("ignore");
         contextSource.afterPropertiesSet();
 
