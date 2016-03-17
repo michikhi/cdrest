@@ -14,7 +14,7 @@ myapp:
     name: myappkey
     pass: myapp@uthk3y
   ldap:
-    url: "ldaps://cdpub.actelion.com:636/dc=corp"
+    url: "ldaps://localhost:636/dc=corp"
     ldif: "classpath:test.ldif"
     user-search-base: "ou=users"
     user-dn-patterns: "cn={0},ou=users,o=actelion"
